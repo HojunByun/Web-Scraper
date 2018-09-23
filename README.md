@@ -8,4 +8,4 @@ With the ludicrous amount of increase in information available on the internet, 
 
 The next step is to integrate Artificial Intelligence with the scrapper by eliminating the need to search for the specific "header" tags that are not always present in web tables. If AI can be used to recognize headers and distinguish them from regular cells than the range of web tables that can be scrapped would increase tremendously.
 
-The zip folder contains the 3 iterations that the scrapper went through over the course of its developement up to this point.
+The zip folder contains the 3 versions of the scrapper from "Extracting1" to "Extracting2" to "Extracting3" that show its course of development.

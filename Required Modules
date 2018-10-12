@@ -1,0 +1,16 @@
+To run the files for extracting the data from HTML tables, three modules need to be downloaded.
+
+1. Beautiful Soup 4
+  Beautiful Soup is a Python library for pulling data out of HTML and XML files
+  https://www.crummy.com/software/BeautifulSoup/bs4/doc/#
+  
+2. lxml 
+  lxml is a parser that allows programmers to work with HTML code
+  https://lxml.de/
+  
+3. Requests
+  Python requests allows users to send HTTP/1.1 requests without manual input
+  http://docs.python-requests.org/en/master/
+  
+  
+All three of these modules are explained in the Beautiful Soup documentation

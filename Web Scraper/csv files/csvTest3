@@ -1,0 +1,560 @@
+﻿
+
+T,a,b,l,e, ,1
+Empty," This help page is a how-to guide. It details processes or procedures of some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines, as it has not been thoroughly vetted by the community.  ",   Shortcut  H:TABLE   
+
+
+T,a,b,l,e, ,2
+Wikitext
+  Cheatsheet All Wikitext Magic links Visual files Sound files Tables Using templates Using HTML codes within Wikitext  
+   v t e   
+
+
+T,a,b,l,e, ,3
+Header 1,Header 2,Header 3
+"row 1, cell 1","row 1, cell 2","row 1, cell 3"
+"row 2, cell 1","row 2, cell 2","row 2, cell 3"
+
+
+T,a,b,l,e, ,4
+{|, Table start ,Required.
+|+, Table caption ,Optional. Only between table start and first table row. 
+|-, Table row ,Optional. Can be omitted before the first row and/or after the last row. 
+!, Table header cell ,"Optional. Consecutive table header cells may be added on same line separated by double marks (!!); or start on new lines, each with its own single mark (!). "
+|, Table data cell ,"Optional. Consecutive table data cells may be added on same line separated by double marks (||) or start on new lines, each with its own single mark (|). This mark is also used to separate HTML attributes from cell and caption contents. "
+|}, Table end ,Required.
+
+
+T,a,b,l,e, ,5
+Empty,"Instead of using absolute px pixel sizing, prefer relative values with % and em units. Content can automatically shrink to fit."
+
+
+T,a,b,l,e, ,6
+Column header 1,Column header 2,Column header 3
+Row header 1,Cell 2,Cell 3
+Row header A,Cell B,Cell C
+
+
+T,a,b,l,e, ,7
+Column header 1,Column header 2,Column header 3
+Row header 1,Cell 2,Cell 3
+Row header A,Cell B,Cell C
+
+
+T,a,b,l,e, ,8
+P|i|p|e|,e|l|l|2|
+P|i|p|e,C|e|l|l|2|
+P|i|p|e|s,e|l|l|2|
+
+
+T,a,b,l,e, ,9
+|Pipes34:||
+|Pipes34:||
+
+
+T,a,b,l,e, ,1,0
+Pipe3:|
+Pipe3:|
+
+
+T,a,b,l,e, ,1,1
+A,B
+C,D
+
+
+T,a,b,l,e, ,1,2
+×,1,2,3
+1,1,2,3
+2,2,4,6
+3,3,6,9
+4,4,8,12
+5,5,10,15
+
+
+T,a,b,l,e, ,1,3
+Year,Africa,Americas,Asia & Pacific,Europe
+2014,"2,300","8,950","9,325","4,200"
+2015,"2,725","9,200","8,850","4,775"
+
+
+T,a,b,l,e, ,1,4
+Top-left-cell,Top-center-cell,Top-right-cell
+Middle-left-cell,Middle-center-cell,Middle-right-cell
+Bottom-left-cell,Bottom-center-cell,Bottom-right-cell
+
+
+T,a,b,l,e, ,1,5
+Left,Center,Right
+Empty,Empty,Empty
+Bronze star,Gold star,Green star
+
+
+T,a,b,l,e, ,1,6
+Left,Center,Right
+  ,  ,  
+Bronze star,Gold star,Green star
+
+
+T,a,b,l,e, ,1,7
+A,B,C
+D,E,F
+
+
+T,a,b,l,e, ,1,8
+A,B,C
+D,E,F
+
+
+T,a,b,l,e, ,1,9
+Name,Color
+Fred,Orange
+Bob,Green
+Lindy,Yellow
+
+
+T,a,b,l,e, ,2,0
+Animal,State
+Racoon,Maine
+Whale,Alaska
+Manta Ray,Florida
+
+
+T,a,b,l,e, ,2,1
+"Col 1, row 1","Col 2, row 1 (and 2)","Col 3, row 1"
+"Col 1, row 2","Col 2, row 1 (and 2)","Col 3, row 2"
+
+
+T,a,b,l,e, ,2,2
+"Col 1, row 1","Col 2, row 1 (and 2)","Col 3, row 1"
+"Col 1, row 2","Col 2, row 1 (and 2)","Col 3, row 2"
+
+
+T,a,b,l,e, ,2,3
+"Col 1, row 1","Col 2, row 1 (and 2)","Col 3, row 1"
+"Col 1, row 2","Col 2, row 1 (and 2)","Col 3, row 2"
+
+
+T,a,b,l,e, ,2,4
+"Col 1, row 1","Col 2, row 1 (and 2)","Col 3, row 1"
+"Col 1, row 2","Col 2, row 1 (and 2)","Col 3, row 2"
+
+
+T,a,b,l,e, ,2,5
+Duis,aute,irure
+dolor,in reprehenderit,in voluptate velit
+esse cillum dolore,eu fugiat nulla,pariatur.
+
+
+T,a,b,l,e, ,2,6
+NESTED
+TABLE
+
+
+T,a,b,l,e, ,2,7
+A
+
+
+T,a,b,l,e, ,2,8
+B,B
+
+
+T,a,b,l,e, ,2,9
+C
+
+
+T,a,b,l,e, ,3,0
+D
+
+
+T,a,b,l,e, ,3,1
+abc,def,ghi
+jkl,mno,pqr
+stu,vwx,yz
+
+
+T,a,b,l,e, ,3,2
+abc,def,ghi,jkl
+
+
+T,a,b,l,e, ,3,3
+stu,vwx,yz
+stu,vwx,yz
+stu,vwx,yz
+
+
+T,a,b,l,e, ,3,4
+cell1,cell2,cell3
+
+
+T,a,b,l,e, ,3,5
+Row header,"A longer piece of text. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",Short text
+Row header,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Imagine someone scrolling down the page, seeing the tops of ""empty"" columns, and wondering why they're empty.",Short text
+
+
+T,a,b,l,e, ,3,6
+Row header,"A longer piece of text. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",Short text
+Row header,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Imagine someone scrolling down the page, seeing the tops of ""empty"" columns, and wondering why they're empty.",Short text
+
+
+T,a,b,l,e, ,3,7
+Cell content that is not indented,1
+Indented content,2
+
+
+T,a,b,l,e, ,3,8
+Name,Effect,Games found in
+Poké Ball,Regular Poké Ball,All versions
+Great Ball,Better than a Poké Ball,All versions
+
+
+T,a,b,l,e, ,3,9
+This column is 100 points wide,This column is 200 points wide,This column is 300 points wide
+blah,blih,bluh
+
+
+T,a,b,l,e, ,4,0
+Country,Capital
+The Netherlands,Amsterdam
+
+
+T,a,b,l,e, ,4,1
+Country,Capital
+France,Paris
+
+
+T,a,b,l,e, ,4,2
+Episode,Date,Summary
+"""The Journey Begins""","January 1, 2010","Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+"""When Episodes Attack""","January 8, 2010","Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+"""So Long""","January 15, 2010","Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+T,a,b,l,e, ,4,3
+Episode,Date,Summary
+"""The Journey Begins""","January 1, 2010","Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+"""When Episodes Attack""","January 8, 2010","Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+"""So Long""","January 15, 2010","Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+T,a,b,l,e, ,4,4
+Empty,Empty
+ Two Wikipedia logos , Two Wikipedia logos 
+
+
+T,a,b,l,e, ,4,5
+Infobox A,Infobox A
+This sample infobox shows how the floating image box aligns toward the center.,This sample infobox shows how the floating image box aligns toward the center.
+
+
+T,a,b,l,e, ,4,6
+  Temple of Bel (floating).
+
+
+T,a,b,l,e, ,4,7
+"     The dashed border around this table shows the implicit margins of Images using ""thumb|right"".   "
+
+
+T,a,b,l,e, ,4,8
+ ...by float: right
+
+
+T,a,b,l,e, ,4,9
+ ...images wrap...
+
+
+T,a,b,l,e, ,5,0
+ All these...
+
+
+T,a,b,l,e, ,5,1
+Column 1,Column 2,Column 3
+A,B,B
+A,C,D
+E,F,F
+G,F,F
+H,H,H
+
+
+T,a,b,l,e, ,5,2
+Column 1 (row 1 cell 1),Column 2 (row 1 cell 2),Column 3 (row 1 cell 3)
+"A (row 2 cell 1) rowspan=""2""","B (row 2 cell 2) colspan=""2""","B (row 2 cell 2) colspan=""2"""
+"A (row 2 cell 1) rowspan=""2""",C (row 3 cell 1),D (row 3 cell 2)
+E (row 4 cell 1),"F (row 4 cell 2) rowspan=""2"" colspan=""2""","F (row 4 cell 2) rowspan=""2"" colspan=""2"""
+G (row 5 cell 1),"F (row 4 cell 2) rowspan=""2"" colspan=""2""","F (row 4 cell 2) rowspan=""2"" colspan=""2"""
+"H (row 6 cell 1) colspan=""3""","H (row 6 cell 1) colspan=""3""","H (row 6 cell 1) colspan=""3"""
+
+
+T,a,b,l,e, ,5,3
+432,.1
+43,.21
+4,.321
+
+
+T,a,b,l,e, ,5,4
+Heading,Heading
+432,.1
+43,.21
+4,.321
+
+
+T,a,b,l,e, ,5,5
+Heading,Heading
+432,.1
+43,.21
+4,.321
+
+
+T,a,b,l,e, ,5,6
+432.1
+ 43.21
+  4.321
+
+
+T,a,b,l,e, ,5,7
+ To From ,Solid,Liquid,Gas
+Solid,Solid-solid transformation,Melting,Sublimation
+Liquid,Freezing,—,Boiling/evaporation
+Gas,Deposition,Condensation,—
+
+
+T,a,b,l,e, ,5,8
+  ,To,To,To,  
+  ,  ,Solid,Liquid,Gas
+From,Solid,Solid-solid transformation,Melting,Sublimation
+From,Liquid,Freezing,—,Boiling/evaporation
+From,Gas,Deposition,Condensation,—
+
+
+T,a,b,l,e, ,5,9
+Year,Size,Empty,Year,Size,Empty,Year,Size
+1990,1000 (est),2000,1357,2010,Empty,Empty,1776
+1991,1010,2001,1471,2011,Empty,Empty,1888
+⋮,⋮,⋮,⋮,⋮,⋮,Empty,Empty
+1999,1234,2009,1616,2019,Empty,Empty,1997 (est)
+
+
+T,a,b,l,e, ,6,0
+×,1,2,3
+1,1,2,3
+2,2,4,6
+3,3,6,9
+4,4,8,12
+5,5,10,15
+
+
+T,a,b,l,e, ,6,1
+×,1,2,3
+1,1,2,3
+2,2,4,6
+3,3,6,9
+4,4,8,12
+5,5,10,15
+
+
+T,a,b,l,e, ,6,2
+×,1,2,3
+1,1,2,3
+2,2,4,6
+3,3,6,9
+4,4,8,12
+5,5,10,15
+
+
+T,a,b,l,e, ,6,3
+Header
+Content that starts hidden
+more hidden content
+
+
+T,a,b,l,e, ,6,4
+Header
+Content that starts visible
+more visible content
+
+
+T,a,b,l,e, ,6,5
+Header
+Content that starts hidden
+more hidden content
+
+
+T,a,b,l,e, ,6,6
+Header
+Content that starts visible
+more visible content
+
+
+T,a,b,l,e, ,6,7
+Alphabetic,Numeric,Date,Unsortable
+d,20,2008-11-24,This
+b,8,2004-03-01,column
+a,6,1979-07-23,cannot
+c,4,1492-12-08,be
+e,0,1601-08-13,sorted.
+
+
+T,a,b,l,e, ,6,8
+Alphabetic,Numeric,Date,Unsortable
+d,20,2008-11-24,This
+b,8,2004-03-01,column
+a,6,1979-07-23,cannot
+c,4.2,1492-12-08,be
+e,0,1601-08-13,sorted.
+
+
+T,a,b,l,e, ,6,9
+1,2,3
+1-1,2-1,3-1
+1-2,2-2,3-2
+
+
+T,a,b,l,e, ,7,0
+1,2,3
+1-1,2-1,3-1
+1-2,2-2,3-2
+
+
+T,a,b,l,e, ,7,1
+col1,col2,col3,col4
+row1,A,A,C
+row2,AA,BB,CC
+row3,AAA,BBB,CCC
+row4,AAAA,BBB,CCCC
+
+
+T,a,b,l,e, ,7,2
+  Andorra ↓ Albania Austria Belarus Belgium B&H Bulgaria Croatia Czech Rep. Denmark Estonia Finland France Germany Greece Hungary Iceland Ireland Italy Latvia Lithuania Luxembourg→ Mac. ←Malta Moldova Mont. Netherlands Norway Poland Portugal Romania Russia Serbia Slovakia Slovenia Spain Sweden  Switz- erland Ukraine United Kingdom  
+
+
+T,a,b,l,e, ,7,3
+ , , , , 
+1,Andorra,"85,000","3,316",  3.90
+2,Luxembourg,"498,000","14,228",  2.86
+3,France,"64,768,000","1,827,517",  2.82
+4,Belgium,"10,423,000","292,530",  2.81
+5,Iceland,"309,000","7,667",2.48
+6,Switzerland,"7,623,000","182,814",2.40
+7,Malta,"407,000","9,129",2.24
+8,Austria,"8,214,000","167,132",2.03
+9,Liechtenstein,"36,000",718,1.99
+10,Spain,"46,506,000","810,680",1.74
+11,Slovenia,"2,003,000","27,780",1.39
+12,Sweden,"9,074,000","125,248",1.38
+13,Germany,"81,644,000","1,082,972",1.33
+14,Italy,"60,749,000","796,634",1.31
+15,Ireland,"4,623,000","58,504",1.27
+16,United Kingdom,"62,348,000","781,025",1.25
+17,Portugal,"10,736,000","132,219",1.23
+18,Netherlands,"16,574,000","191,608",1.16
+19,Romania,"21,959,000","211,867",0.96
+20,Norway,"4,676,000","36,483",0.78
+21,Denmark,"5,516,000","41,377",0.75
+22,Bulgaria,"7,149,000","52,296",0.73
+23,Greece,"10,750,000","78,874",0.73
+24,Latvia,"2,218,000","14,967",0.67
+25,Estonia,"1,291,000","8,535",0.66
+26,Croatia,"4,487,000","28,950",0.65
+27,Lithuania,"3,545,000","21,721",0.61
+28,Finland,"5,255,000","28,836",0.55
+29,Hungary,"9,992,000","51,684",0.52
+30,Poland,"38,464,000","162,643",0.42
+31,Slovakia,"5,470,000","22,588",0.41
+32,Czech Republic,"10,202,000","39,358",0.39
+33,Macedonia,"2,072,000",3847,0.19
+34,Bosnia and Herz.,"4,622,000","8,436",0.18
+35,Serbia,"7,345,000","12,369",0.17
+36,Montenegro,"667,000","1,101",0.17
+37,Albania,"2,987,000","3,300",0.11
+38,Moldova,"3,732,000","2,134",0.06
+39,Russia,"139,390,000","62,932",0.05
+40,Belarus,"9,613,000","2,643",0.03
+41,Ukraine,"45,416,000","13,002",0.03
+
+
+T,a,b,l,e, ,7,4
+a,b,a/b
+50,200,0.25
+8,11,0.72727272727273
+1000,81,12.345679012346
+
+
+T,a,b,l,e, ,7,5
+"row one, column one","row one, column two"
+"row three, column one","row three, column two"
+
+
+T,a,b,l,e, ,7,6
+1,2
+3,4
+
+
+T,a,b,l,e, ,7,7
+ Date/Page , VG: Project , VG: Talk , VG: Portal , VG: Article guidelines , VG: Templates , VG: Sources , VG: Assessment , VG: Cleanup , VG Requests 
+05/08,4266,7828,7282,1105,224,161,916,506,231
+04/08,4127,6190,6487,1139,241,205,1165,478,301
+
+
+T,a,b,l,e, ,7,8
+Empty,Empty,Empty,Empty,Empty,Empty,Empty,Empty,Empty,Empty
+05/08,4266,7828,7282,1105,224,161,916,506,231
+04/08,4127,6190,6487,1139,241,205,1165,478,301
+
+
+T,a,b,l,e, ,7,9
+Empty,"This section is still recommending deprecated fixed-pixel sizes for images, and should be updated with relative sizes in em units."
+
+
+T,a,b,l,e, ,8,0
+Empty,Empty,Empty,Empty
+Nibelungen Bridge to Worms,Worms and its sister cities,Statue of Liberty,New York City
+
+
+T,a,b,l,e, ,8,1
+Empty,Empty,Empty,Empty
+Nibelungen Bridge to Worms,Worms and its sister cities,Statue of Liberty,New York City
+
+
+T,a,b,l,e, ,8,2
+Empty,Empty,Empty,Empty,Empty,Empty,Empty
+
+
+T,a,b,l,e, ,8,3
+Empty,    ,  
+Dom tower from Brigittenstraat,Cloister garth of the Utrecht Dom Church,  View from bell tower
+
+
+T,a,b,l,e, ,8,4
+Header 1,Header 2
+"row 1, cell 1","row 1, cell 2"
+"row 2, cell 1","row 2, cell 2"
+
+
+T,a,b,l,e, ,8,5
+   v t e   Wikipedia help pages ,   v t e   Wikipedia help pages 
+"    Visit the Teahouse if you are a new editor looking for interactive help, or the Help desk for an interactive Q & A forum.     FAQs (?) Reference desks (?) Noticeboards (?) Missing Manual (?) Cheatsheet (?) Directories (?)   ","    Visit the Teahouse if you are a new editor looking for interactive help, or the Help desk for an interactive Q & A forum.     FAQs (?) Reference desks (?) Noticeboards (?) Missing Manual (?) Cheatsheet (?) Directories (?)   "
+About Wikipedia,   Administration  Purpose Principles Wikipedia in brief   Policies and guidelines What Wikipedia is not Disclaimer (parental advice) Making requests  where to ask questions contact Wikipedia directly   Who writes Wikipedia? Why create an account?   
+Help for readers,   FAQ Books Copyright Glossary Mobile access Navigation Other languages Searching Students Viewing media   
+Contributing to Wikipedia,"   A plain and simple overview A primer for newcomers Advice for young editors Avoiding common mistakes Etiquette (community expectations) Learning the ropes Instructional material Simplified Manual of Style Simplified rule-set  ""Ignore all rules"" ""The rules are principles""   Style-tips Tip of the day Task Center Your first article (article wizard) Vandalism   "
+Getting started,   Wikipedia intro Wikipedia tutorial The Wikipedia Adventure Manual of Style intro Graphics tutorials Picture tutorial (Uploading intro) IRC (live chat) tutorial Navigating intro Policies intro Referencing intro Tables intro Talk pages intro VisualEditor user guide   
+Dos and don'ts,   Accessibility Bio's Categorization Disambiguation Images Links Lists References Tables Talks   
+How-to pages and information pages,   Appealing blocks Article deletion Categories Citations / references  Referencing for beginners Citation Style 1 Cite errors References and page numbers   Convert Diff Editing  toolbar edit conflict   Email confirmation Find sources Files Footnotes Image deletion Infoboxes Linking (link color) Logging in Merging Namespaces Page name Redirect Renaming pages Passwords Reverting Talk pages (archiving) URL User contributions User page design center   
+Coding wiki markup,   Wiki markup Barcharts Calculations Characters Citation templates Columns Hidden text HTML Lists Magic words (introduction) Music symbols Sections Sounds Tables (introduction) Templates  documentation messages  cleanup messages     Transclusion Visual files Wiki tools   
+Directories,   Abbreviations Departments Editor's index Essays FAQs Glossary Guidelines Help menu Manual of Style Policies Shortcuts Tasks Tips   
+ Ask for help on your talk page  , Ask for help on your talk page  
+
+
+T,a,b,l,e, ,8,6
+   v t e   Wikipedia technical help ,   v t e   Wikipedia technical help 
+" Get personal technical help at the Teahouse, Help desk, Village pump (technical), talk pages or IRC. "," Get personal technical help at the Teahouse, Help desk, Village pump (technical), talk pages or IRC. "
+General technical help,   Editing  Edit toolbar CharInsert Edit conflict Reverting   VisualEditor  User guide   Create a page Page history Page information Page name  Introduction   Browser notes  Keyboard shortcuts Troubleshooting Bypass cache   Mobile access Multilingual support Special Characters  Entering   Printing User access levels Software notices  Editnotice   IRC  Tutorial     
+Special page related,   Special page help Searching  Advanced search Linksearch   Logging in  Reset passwords   Notifications/Echo  FAQ   Moving a page  Fixing cut-and-paste moves   Watching pages User contributions Emailing users Random pages Logs What links here Related changes Recent changes Pending changes Page Curation Page import Edit filter Tags   
+Wikitext,   Wikitext main page  Cheatsheet   Colours use Columns Line-break handling Lists Magic words  For beginners Conditional expressions Switch parser function Time function   Redirects Sections and TOCs Tables  Introduction Basics Conditional tables Sorting Collapsing Advanced table formatting     
+Links and diffs,   URLs Links Permanent link Interwikimedia links Interlanguage links Link color Pipe trick Colon trick Magic links Diffs  Simplest diff guide Simple diff and link guide Complete diff and link guide     
+"Media files: images, videos and sounds",   Media help Options to hide an image Uploading images  Introduction   Files  Creation and usage Moving files to Commons   Visual file markup Images  Preparing images for upload Picture tutorial Extended image syntax   Gallery tag Graphics tutorials  Basic bitmap image editing How to improve image quality   Graphics Lab resources Sound file markup SVG help   
+Other graphics,   Family trees Graphs and charts  How to create To scale charts Barcharts   Math formula  Math symbols Rendering math LaTeX symbols   Musical scores  Musical symbols   Timeline  EasyTimeline syntax   WikiHiero syntax   
+Templates and Lua modules,   Templates Template messages Citation templates Transclusion  Labeled section   Substitution Advanced template coding Template limits Template sandbox and test cases Template documentation Purge  Job queue   Lua help Lua project  To do Resources   Guide to Scribbling   
+Data structure,   Namespaces Main/Article Talk namespaces  Archiving   User  User page design   Project/Wikipedia File  File description page   MediaWiki  Bug reports and feature requests System message   Template Help Category Portal Book Draft Education Program TimedText Module/Lua Topic/Flow Special Media   
+HTML and CSS,   HTML in wikitext Markup validation Span tags Cascading Style Sheets Catalogue of CSS classes Useful styles Classes used in microformats Ambox classes Common.js and common.css User CSS for monospaced coding font   
+Customisation and tools,   Preferences Skins Customizing watchlists  Hide pages   Gadgets Beta Features User scripts  Guide Techniques   IRC Scripts User styles Tools  Navigation shortcuts Browser tools Alternative browsing Editing tools Optimum tool set   Cleaning up vandalism tools Citation tools Wikimedia Cloud Services   
+Automating editing,   Bots  Creating   Twinkle HotCat WPCleaner igloo AutoWikiBrowser Navigation popups STiki AfC helper script Huggle   
+   See also: Category:Wikipedia information pages Category:Wikipedia how-to Further navigation at: Help pages  Administrators   Templates Referencing  Citation metadata   Accessibility Bots User scripts Accounts   ,   See also: Category:Wikipedia information pages Category:Wikipedia how-to Further navigation at: Help pages  Administrators   Templates Referencing  Citation metadata   Accessibility Bots User scripts Accounts   
